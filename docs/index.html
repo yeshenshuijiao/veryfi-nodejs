@@ -19,8 +19,6 @@
   <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
   <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
   
-  <link type="text/css" rel="stylesheet" href="styles/collapse.css">
-  
 
   
 
@@ -70,19 +68,12 @@
 
   <nav>
     <h3 class="reference-title">
-      Veryfi SDK
+      Braintree SDK Client Reference
     </h3>
 
     
-      <h3>
-        Resources
-      </h3>
-      
-        <a href="https://www.google.com/">google</a>
-      
-    
 
-    <h3>Classes</h3><ul><li id="Client-nav"><a href="Client.html">Client</a><ul class='methods'><li data-type="method" id="Client-delete_document-nav"><a href="Client.html#delete_document">delete_document</a></li><li data-type="method" id="Client-get_document-nav"><a href="Client.html#get_document">get_document</a></li><li data-type="method" id="Client-get_documents-nav"><a href="Client.html#get_documents">get_documents</a></li><li data-type="method" id="Client-process_document-nav"><a href="Client.html#process_document">process_document</a></li><li data-type="method" id="Client-process_document_file-nav"><a href="Client.html#process_document_file">process_document_file</a></li><li data-type="method" id="Client-process_document_url-nav"><a href="Client.html#process_document_url">process_document_url</a></li><li data-type="method" id="Client-update_document-nav"><a href="Client.html#update_document">update_document</a></li></ul></li></ul>
+    <h3>Classes</h3><ul><li id="Client-nav"><a href="Client.html">Client</a><ul class='methods'><li data-type="method" id="Client-delete_document-nav"><a href="Client.html#delete_document">delete_document</a></li><li data-type="method" id="Client-get_document-nav"><a href="Client.html#get_document">get_document</a></li><li data-type="method" id="Client-get_documents-nav"><a href="Client.html#get_documents">get_documents</a></li><li data-type="method" id="Client-process_document-nav"><a href="Client.html#process_document">process_document</a></li><li data-type="method" id="Client-process_document_url-nav"><a href="Client.html#process_document_url">process_document_url</a></li><li data-type="method" id="Client-update_document-nav"><a href="Client.html#update_document">update_document</a></li></ul></li></ul>
   </nav>
 
   <div id="main">
@@ -129,17 +120,17 @@
 <p>Install from <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">npm</a>, a
 package manager for Javascript.</p>
 <p>Install the package from npm:</p>
-<pre class="prettyprint source lang-bash"><code>npm install veryfi
+<pre class="prettyprint source lang-bash"><code>npm install veryfi-sdk
 </code></pre>
 <p>You may need to run the above commands with <code>sudo</code>.</p>
 <h2>Getting Started</h2>
 <h3>Obtaining Client ID and user keys</h3>
 <p>If you don't have an account with Veryfi, please go ahead and register here: <a href="https://hub.veryfi.com/signup/api/">https://hub.veryfi.com/signup/api/</a></p>
 <h3>Node.js API Client Library</h3>
-<p>The <strong>veryfi</strong> library can be used to communicate with Veryfi API. All available functionality is described here <a href="https:%5C/%5C/veryfi.github.io/veryfi-python/reference/veryfi/#client">https://veryfi.github.io/veryfi-python/reference/veryfi/#client</a></p>
+<p>The <strong>veryfi</strong> library can be used to communicate with Veryfi API. All available functionality is described here <a href="https:%5C/%5C/veryfi.github.io/veryfi-nodejs/Client.html">https://veryfi.github.io/veryfi-nodejs/Client.html</a></p>
 <p>Below is the sample script using <strong>veryfi</strong> to OCR and extract data from a document:</p>
 <h3>Extracting Data</h3>
-<pre class="prettyprint source lang-js"><code>const Client = require('veryfi');
+<pre class="prettyprint source lang-js"><code>const Client = require('veryfi-sdk');
 const client_id = 'your_client_id';
 const client_secret = 'your_client_secret';
 const username = 'your_username';
